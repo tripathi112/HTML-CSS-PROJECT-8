@@ -152,7 +152,10 @@ width: 120px;
 .content p{
     font-size: 0.7rem;
 }
-
+.content:hover{
+    background-color: rgba(79, 0, 158, 0.611);
+    color: #fff;
+}
 /* -------------------- meadia section ----------------- */
 @media (max-width:965px){
    nav{
