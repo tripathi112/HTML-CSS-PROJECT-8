@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    overflow: scroll;
+}
+.container{
+    overflow-x: hidden;
+    width: 100%;
+}
+.bg{
+    background-image: url(./assets/bg.svg);
+   background-size: cover;
+}
+/* ----------navigation bar----------------------- */
+nav{
+   display:  flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   padding: 2rem 3%;   
+}
+nav .logo img{
+width: 120px;
+}
+.navbar .list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    color: #fff;
+    cursor: pointer;
+}
+.btn{
+    background-color: #1c8cef;
+    color: #fbfbfb;
+    height: 7vh;
+    width: 10vw;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 0.9rem;
+}
+/* ------------------------------hero section----------------------------- */
+.hero-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;  
+    gap: 3.5vw;
+    padding: 2rem 4rem 3rem 4rem;
+}
+
+.hero-img{
+    width: 45vw;
+}
+.hero-left{
+    color: #f4f4f4;
+    padding: 2rem 2rem 1rem 0rem;
+}
+.hero-left .hero-heading{
+    font-size: 4.5vw;
+}
+.hero-left p{
+    font-size: 1.2vw;
+    margin-top: 2rem;
+}
+.hero-left button{
+    width: 15vw;
+    margin-top: 2rem;
+    font-size: 1.3vw;
+}
+
+/* hero section 2 */
+.section-2 .hero-right h1{
+    font-size: 1.8rem;
+}
+.section-2-features h3{
+    margin-top: 1.5rem;
+}
+.section-2-features p{
+    margin-top: 0.5rem;
+}
+
+/* -------------------- features section------------------------------ */
+.feature-section{
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+.feature-heading{
+    font-size: 4vw;
+    text-align: center;
+}
+.feature-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    gap: 0.5rem;
+}
+.feature-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 14rem;
+    height: 15rem;
+    box-shadow: 2px 0px 5px 0px rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5.5rem;
+    width: 3.5rem;
+    margin-top: 1.5rem;
+    border-radius: 100%;
+}
+.icon img{
+    width: 2rem;
+}
+.icon-1{
+    background-color: #fcbcbc;
+}
+.icon-2{
+    background-color: #f4f4c5;
+}
+.icon-3{
+    background-color: #a2e5a7;
+}
+.icon-4{
+    background-color: #eaa5f1;
+}
+.content{
+    margin-top: 2rem;
+    height: 100%;
+    width: 100%;
+    padding: 0.6rem 1rem 0 1rem;
+}
+.content p{
+    font-size: 0.7rem;
+}
+
+/* -------------------- meadia section ----------------- */
+@media (max-width:965px){
+   nav{
+    overflow: scroll;
+   }
+   .section-1{
+    flex-direction: column-reverse;
+   }
+   .hero-section{
+    text-align: center;
+   }
+   .feature-boxes{
+    flex-direction: column;
+   }
+}
+
+@media (max-width:650px){
+    .section-1 .hero-left h1{
+        font-size: 1.9rem;
+    }
+    .section-1 p{
+        font-size: 0.5rem;
+    }
+}
