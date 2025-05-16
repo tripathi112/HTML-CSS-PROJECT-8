@@ -22,7 +22,7 @@ This project is a responsive website built using HTML and CSS.
 
 ## Live Project 
 
-https://html-css-project-8-omega.vercel.app/
+https://html-css-project-8-jade.vercel.app/
 
 ## Time taken to finish this project
 - 4 hour to complete it.
